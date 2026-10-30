@@ -10,6 +10,7 @@ dotenv.config({
       : path.resolve("./.env.dev"),
 });
 
+export const NODE_ENV = process.env.NODE_ENV;
 export const PORT = Number(process.env.PORT) || 3000;
 export const DB_URI = process.env.DB_ATLAS || "";
 export const SALT_ROUND = Number(process.env.SALT_ROUND) || 12;

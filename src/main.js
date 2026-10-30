@@ -9,6 +9,7 @@ import authController from "./module/auth/auth.controller.js";
 import messageController from "./module/message/message.controller.js";
 import userController from "./module/user/user.controller.js";
 import rateLimit from "express-rate-limit";
+import morgan from "morgan";
 
 async function bootstrap() {
   const app = express();
@@ -20,6 +21,7 @@ async function bootstrap() {
   });
 
   app.use(
+    morgan(),
     helmet(),
     cors({
       origin: function (requestOrigin, cb) {
