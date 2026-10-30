@@ -5,7 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "start:dev": "cross-env NODE_ENV=DEV  node --watch src/main.js ",
-    "start:prod": "cross-env NODE_ENV=PROD  node --watch src/main.js "
+    "start:prod": "cross-env NODE_ENV=PROD  node src/main.js "
   },
   "keywords": [],
   "author": "",

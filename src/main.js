@@ -21,7 +21,7 @@ async function bootstrap() {
   });
 
   app.use(
-    morgan(),
+    morgan("short"),
     helmet(),
     cors({
       origin: function (requestOrigin, cb) {
