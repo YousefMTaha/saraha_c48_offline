@@ -1,0 +1,35 @@
+{
+  "name": "folderstructure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start:dev": "cross-env NODE_ENV=DEV  node --watch src/main.js ",
+    "start:prod": "cross-env NODE_ENV=PROD  node --watch src/main.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "argon2": "^0.45.1",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "cross-env": "^10.1.0",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.1",
+    "file-type": "^22.2.0",
+    "google-auth-library": "^11.1.0",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.2",
+    "multer": "^2.5.0",
+    "mysql2": "^3.24.2",
+    "nodemailer": "^10.1.1",
+    "redis": "^6.3.0",
+    "sequelize": "^6.37.8",
+    "zod": "^4.6.5"
+  }
+}
