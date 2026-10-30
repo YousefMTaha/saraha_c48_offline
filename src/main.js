@@ -4,7 +4,7 @@ import helmet from "helmet";
 import { PORT } from "./config/config.js";
 import { dbConnection } from "./DB/connection.db.js";
 import globalErrMiddleware from "./middleware/error.middleware.js";
-import notFoundMiddleware from "./middleware/notfound.middleware.js";
+import notFoundMiddleware from "./middleware/notFound.middleware.js";
 import authController from "./module/auth/auth.controller.js";
 import messageController from "./module/message/message.controller.js";
 import userController from "./module/user/user.controller.js";
